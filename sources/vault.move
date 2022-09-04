@@ -1,8 +1,3 @@
-/// The module can accept an Arbitrary number of Coins from an arbitrary number of users
-/// There should be a 'deposit', and 'withdraw' function that any user can use to deposit and withdraw their own funds,
-/// but no other users funds
-/// There should also be two functions that only admins can call.
-/// 'Pause' and 'Unpause' that prevent new deposits or withdrawals from occurring.
 module minivault::vault {
     use std::signer;
 
