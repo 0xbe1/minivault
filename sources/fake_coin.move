@@ -1,10 +1,10 @@
+#[test_only]
 module minivault::fake_coin {
     use std::signer;
     use std::string;
 
     use aptos_framework::coin;
 
-    #[test_only]
     public entry fun initialize_account_with_coin<CoinType>(
         issuer: &signer,
         destination: &signer,
